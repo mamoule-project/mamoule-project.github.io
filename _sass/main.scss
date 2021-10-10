@@ -1,8 +1,39 @@
-
 body {
     color: #696969;
 }
 
 h1,h2, h3, h4, h5, h6 {
     color: #D41159;
+}
+
+#header {
+    padding: 20px;
+    border-bottom: 4px solid #D41159;
+}
+
+/* unvisited link */
+a:link {
+    color: #696969;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* mouse over link */
+a:hover {
+    color:  #D41159;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #696969;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:active {
+    background-color: #696969;
+    color:  #D41159;
+    text-decoration: none;
+    font-weight: bold;
 }
